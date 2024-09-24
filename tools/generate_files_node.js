@@ -24,7 +24,7 @@ function generatePythonFiles(numOfExercises, firstExerciseNum, dirPath) {
         const fileName = `${i}.py`;
         const pythonCode = `
 def main():
-    console.log("Hello World!")
+    print("Hello World!")
 
 if __name__ == "__main__":
     main()
